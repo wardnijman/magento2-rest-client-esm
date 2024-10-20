@@ -1,4 +1,9 @@
 {
+  "pnpm": {
+    "overrides": {
+      "cjstoesm>typescript": "^4.9.5"
+    }
+  },
   "_from": "magento2-rest-client@0.0.2",
   "_id": "magento2-rest-client@0.0.2",
   "_inBundle": false,
@@ -29,11 +34,14 @@
   "bugs": {
     "url": "https://github.com/nouvak/magento2-rest-client/issues"
   },
-  "bundleDependencies": false,
+  "type": "module",
+  "bundleDependencies": [],
   "dependencies": {
+    "cjstoesm": "^2.1.2",
     "humps": "^1.1.0",
     "oauth-1.0a": "^1.0.1",
     "request": "^2.72.0",
+    "typescript": "^4.9.5",
     "winston": "^2.2.0"
   },
   "deprecated": false,
